@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 def getDataFrame(xlPath, sheetName, HeaderRow,idxcol):
-    df = pd.read_excel(xlPath,leftSheet,header = headerRow,na_values='')
+    df = pd.read_excel(xlPath,sheetName,header = headerRow,na_values='')
     df = df.fillna(-9999)
     df.set_index(idxcol,verify_integrity=True,drop=False,inplace=True)
     return df
