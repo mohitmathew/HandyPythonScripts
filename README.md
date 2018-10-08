@@ -1,2 +1,2 @@
 # HandyPythonScripts
-this repository is intended to create a distribute reusable scripts
+this repository is intended to create and distribute reusable scripts
